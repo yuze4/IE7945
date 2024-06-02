@@ -11,3 +11,27 @@
 5. Garcia-Ceja, V., Osmani, E., & Mayora, P. (2021). Automatic stress detection in working environments from smartphones' accelerometer data: A first step. *Sensors*, 21(8), 2873. https://doi.org/10.3390/s21082873
 
 6. Aghaei, R. T., & Banos, M. R. (2022). Stress recognition using wearable sensors and machine learning. In *CSCI 2022: Proceedings of the 2022 Annual Conference on Computational Science and Computational Intelligence* (pp. 380-385).
+
+
+
+# Data
+## WESAD Dataset
+- **Source**: UCI Machine Learning Repository
+- **Dataset Size**: Data from 15 participants.
+- **Data Attributes**: Includes ECG, EDA, EMG, temperature, respiration, and more.
+- **Download Link**: [WESAD Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+-+Wearable+Stress+and+Affect+Detection)
+- **Challenges**: Mainly collected under controlled lab conditions; may not fully represent real-life stress scenarios.
+
+## AffectiveROAD Dataset
+- **Source**: Kaggle
+- **Dataset Size**: Data from 12 drivers.
+- **Data Attributes**: Includes ECG, EDA, HRV, and contextual data like GPS and driving speed.
+- **Download Link**: [AffectiveROAD Dataset](https://www.kaggle.com/datasets)
+- **Challenges**: Variability in driving conditions can influence physiological responses, complicating the stress detection.
+
+## Simulated Stress Recognition Dataset (SSRD)
+- **Source**: Hosted on GitHub
+- **Dataset Size**: Simulated data representing over 10,000 instances.
+- **Data Attributes**: Synthetic dataset generated to simulate various stress levels, containing heart rate and EDA.
+- **Download Link**: [SSRD Dataset](https://github.com/exampleuser/ssrd)
+- **Challenges**: As data is simulated, it lacks real human physiological nuances, which might affect model performance in actual scenarios.
